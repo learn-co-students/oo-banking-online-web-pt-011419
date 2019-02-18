@@ -28,7 +28,7 @@ class BankAccount
     self.status = "closed"
   end
   
-  def all 
+  def self.all 
     @@all
   end 
 
